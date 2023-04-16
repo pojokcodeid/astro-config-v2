@@ -26,8 +26,8 @@ dashboard.section.buttons.val = {
   dashboard.button("q", "  Quit Neovim", ":qa<CR>"),
 }
 
-dashboard.config.layout[1].val = vim.fn.max { 2, vim.fn.floor(vim.fn.winheight(0) * 0.0) }
-dashboard.config.layout[3].val = 2
+dashboard.config.layout[1].val = vim.fn.max { 1, vim.fn.floor(vim.fn.winheight(0) * 0.0) }
+dashboard.config.layout[3].val = 1
 dashboard.config.opts.noautocmd = true
 
 local function footer()
