@@ -16,6 +16,7 @@ return {
       -- Add bindings which show up as group name
       local wk = require "which-key"
       wk.register({
+        ["e"] = { "<cmd>NvimTreeToggle<cr>", "Explorer" },
         b = { name = "Buffer" },
         r = {
           name = "Run",
