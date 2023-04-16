@@ -27,7 +27,7 @@ dashboard.section.buttons.val = {
 }
 
 dashboard.config.layout[1].val = vim.fn.max { 2, vim.fn.floor(vim.fn.winheight(0) * 0.0) }
-dashboard.config.layout[3].val = 5
+dashboard.config.layout[3].val = 2
 dashboard.config.opts.noautocmd = true
 
 local function footer()
